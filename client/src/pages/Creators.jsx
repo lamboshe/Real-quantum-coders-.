@@ -18,7 +18,15 @@ const Creators = () => {
   };
 
   return (
-    <main className="section page-shell">
+    <main
+      className="section page-shell"
+      style={{
+        backgroundImage: "url('https://www.colourfestival.net/img/our_reach.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="section-heading">
         <div>
           <p className="eyebrow">Creators and organizers</p>

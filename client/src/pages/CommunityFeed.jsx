@@ -21,7 +21,15 @@ const CommunityFeed = () => {
   };
 
   return (
-    <main className="section page-shell community-layout">
+    <main
+      className="section page-shell community-layout"
+      style={{
+        backgroundImage: "url('https://d1zzxdyvtq79bu.cloudfront.net/uploads/images/cache/big/69/97/10/699713.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <section>
         <p className="eyebrow">Community</p>
         <h1>Community Feed</h1>

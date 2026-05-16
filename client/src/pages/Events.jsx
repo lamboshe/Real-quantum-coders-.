@@ -21,7 +21,15 @@ const Events = () => {
   }, [events, query, category]);
 
   return (
-    <main className="section page-shell">
+    <main
+      className="section page-shell"
+      style={{
+        backgroundImage: "url('https://i.guim.co.uk/img/media/f70a2cbb39c9570a0b50b9901350ece7d33131a0/0_0_4485_2692/master/4485.jpg?width=465&dpr=1&s=none&crop=none')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="section-heading">
         <div>
           <p className="eyebrow">Find your next experience</p>

@@ -18,7 +18,15 @@ const Login = () => {
   };
 
   return (
-    <main className="auth-page">
+    <main
+      className="auth-page"
+      style={{
+        backgroundImage: "url('https://djlifemag.com/wp-content/uploads/2023/12/SolFest2023-0505-214507-06890_DIVISUALS.jpeg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <form className="auth-card" onSubmit={handleSubmit}>
         <p className="eyebrow">Welcome back</p>
         <h1>Login</h1>
